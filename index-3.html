@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="CILOR GROUP؛ فروشگاه محصولات آرایشی و بهداشتی">
+<title>CILOR GROUP | فروشگاه زیبایی</title>
+<style>
+:root{--ink:#17171a;--soft:#f8f7f8;--pink:#f4dfe4;--line:#ece8ea;--muted:#77727a;--accent:#b77b89}
+*{box-sizing:border-box}body{margin:0;background:#fff;color:var(--ink);font-family:Tahoma,Arial,sans-serif}
+a{text-decoration:none;color:inherit}button,input{font:inherit}
+.announcement{height:34px;background:#faf8f9;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;padding:0 max(calc((100% - 1220px)/2),20px);font-size:11px;color:#555}
+header{background:#fff;position:sticky;top:0;z-index:5;border-bottom:1px solid var(--line)}
+.head{max-width:1220px;margin:auto;min-height:88px;padding:14px 20px;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:20px}
+.brand{text-align:center;font-family:Georgia,serif;font-size:32px;font-weight:bold;letter-spacing:2px;line-height:1}.brand small{display:block;font-family:Tahoma;font-size:10px;letter-spacing:5px;margin-top:6px}
+.search{display:flex;align-items:center;border:1px solid #eee;border-radius:30px;background:#fafafa;padding:0 14px;max-width:260px;height:40px}.search input{border:0;background:transparent;outline:0;width:100%;font-size:11px}
+.icons{display:flex;justify-content:flex-end;gap:17px;font-size:19px}.iconbtn{border:0;background:none;cursor:pointer}
+nav{border-top:1px solid #f4f1f2;display:flex;justify-content:center;gap:34px;padding:13px 10px;font-size:12px}
+.hero{max-width:1220px;margin:16px auto 0;padding:0 20px}
+.hero-box{min-height:330px;border-radius:12px;overflow:hidden;position:relative;background:linear-gradient(90deg,rgba(255,255,255,.05),rgba(255,238,242,.93) 56%,#f6e5e9),radial-gradient(circle at 15% 40%,#d8b5bd,#f3dce1 42%,#fff)}
+.hero-box:before{content:"";position:absolute;inset:0 0 0 48%;background:radial-gradient(ellipse at 35% 45%,#fff 0 9%,transparent 10%),radial-gradient(ellipse at 40% 50%,#d7aeb7 0 18%,transparent 19%),linear-gradient(135deg,#ead0d6,#f8e9ec);opacity:.75}
+.hero-content{position:relative;z-index:1;padding:62px 7%;max-width:610px}
+.kicker{font-size:11px;letter-spacing:2px;color:#98717b}
+h1{font-size:clamp(30px,4vw,46px);margin:16px 0;line-height:1.5}
+.hero p{font-size:13px;line-height:2;color:#575158;max-width:420px}
+.primary{display:inline-block;border:0;background:#17171a;color:white;border-radius:30px;padding:13px 25px;font-size:12px;cursor:pointer;margin-top:12px}
+.wrap{max-width:1220px;margin:auto;padding:42px 20px}
+.benefits{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:16px}
+.benefit{background:#faf8f9;border:1px solid #f2edef;border-radius:12px;padding:17px 10px;text-align:center;font-size:12px}
+.benefit b{display:block;font-size:20px;margin-bottom:8px}
+.section-title{text-align:center;margin:0 0 24px;font-size:23px}.section-title small{display:block;color:var(--muted);font-size:11px;font-weight:normal;margin-top:8px}
+.categories{display:grid;grid-template-columns:repeat(6,1fr);gap:14px}
+.category{border:1px solid var(--line);border-radius:12px;padding:18px 8px;text-align:center;background:#fff}
+.circle{width:76px;height:76px;margin:0 auto 11px;border-radius:50%;background:linear-gradient(145deg,#f8e9ed,#e7d9de);display:grid;place-items:center;font-size:27px}
+.category strong{font-size:12px}
+.toolbar{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:18px}
+.toolbar input{border:1px solid var(--line);border-radius:30px;padding:11px 15px;max-width:260px;width:100%;font-size:12px}
+.products{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.product{border:1px solid var(--line);border-radius:12px;overflow:hidden;position:relative;background:white}
+.product-image{height:190px;background:linear-gradient(145deg,#f7f4f5,#e9e3e6);display:grid;place-items:center;color:#9a8790;font-size:12px}
+.product-image span{font-size:35px;display:block;text-align:center;margin-bottom:8px}
+.product-info{padding:14px}.product-info h3{font-size:13px;margin:0 0 9px}.desc{font-size:11px;color:var(--muted);line-height:1.8;min-height:38px}
+.price{font-size:13px;font-weight:bold;margin:12px 0}.add{width:100%;border:1px solid #222;background:white;border-radius:7px;padding:10px;cursor:pointer;font-size:11px}.add:hover{background:#17171a;color:#fff}
+.tag{position:absolute;top:10px;right:10px;background:#b77b89;color:white;padding:5px 8px;border-radius:20px;font-size:10px}
+.banner{background:linear-gradient(100deg,#f1d7de,#faedf0);border-radius:13px;padding:28px 7%;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.banner h2{margin:0 0 8px;font-size:22px}.banner p{font-size:12px;color:#65545a}
+footer{background:#17171a;color:#fff;margin-top:25px;padding:35px 20px}.foot{max-width:1220px;margin:auto;display:grid;grid-template-columns:2fr 1fr 1fr;gap:30px}.foot p{font-size:11px;line-height:2;color:#c9c3c6}.foot h3{font-size:13px}
+.cart{position:fixed;inset:0;background:#0007;z-index:20;display:none;justify-content:flex-end}.cart.open{display:flex}.panel{background:#fff;width:min(420px,100%);height:100%;padding:22px;overflow:auto}.cart-row{display:flex;justify-content:space-between;padding:14px 0;border-bottom:1px solid var(--line);font-size:12px}.close{float:left;border:0;background:#f4eff1;padding:8px 12px;border-radius:8px;cursor:pointer}
+@media(max-width:800px){.head{grid-template-columns:1fr auto}.brand{grid-column:1;grid-row:1;text-align:right}.search{grid-column:1;grid-row:2;max-width:none}.icons{grid-column:2;grid-row:1/3}.categories{grid-template-columns:repeat(3,1fr)}.products{grid-template-columns:repeat(2,1fr)}nav{gap:16px;overflow:auto;justify-content:flex-start;white-space:nowrap}.benefits{grid-template-columns:repeat(2,1fr)}.hero-box{min-height:300px}.hero-content{padding:45px 7%}.foot{grid-template-columns:1fr 1fr}}
+@media(max-width:480px){.announcement{font-size:9px}.hero{padding:0 10px}.hero-box:before{inset:0 0 0 30%;opacity:.35}.hero-content{padding:38px 22px}.wrap{padding:32px 14px}.categories{grid-template-columns:repeat(3,1fr);gap:8px}.circle{width:58px;height:58px}.products{gap:10px}.product-image{height:140px}.product-info{padding:10px}.foot{grid-template-columns:1fr}}
+</style></head>
+<body>
+<div class="announcement"><span>🚚 ارسال به سراسر کشور</span><span>☎ پشتیبانی و پاسخگویی</span></div>
+<header><div class="head">
+<div class="search">⌕ <input id="search" placeholder="جستجوی محصولات..." oninput="render()"></div>
+<a class="brand" href="#">CILOR<small>GROUP</small></a>
+<div class="icons"><button class="iconbtn" aria-label="حساب کاربری">♙</button><button class="iconbtn" aria-label="علاقه‌مندی">♡</button><button class="iconbtn" onclick="openCart()" aria-label="سبد خرید">🛒 <sup id="count">۰</sup></button></div>
+</div><nav><a href="#home">صفحه اصلی</a><a href="#products">محصولات</a><a href="#categories">دسته‌بندی‌ها</a><a href="#about">درباره ما</a><a href="#contact">تماس با ما</a></nav></header>
+<main id="home">
+<section class="hero"><div class="hero-box"><div class="hero-content"><div class="kicker">CILOR GROUP · BEAUTY STORE</div><h1>زیبایی، انتخاب توست...</h1><p>با CILOR GROUP، محصولات آرایشی و بهداشتی مورد علاقه‌ات را آسان‌تر پیدا کن. انتخابی تازه برای مراقبت و زیبایی روزانه.</p><a class="primary" href="#products">مشاهده محصولات ←</a></div></div></section>
+<div class="wrap" style="padding-top:0"><div class="benefits"><div class="benefit"><b>♧</b>تضمین اصالت کالا</div><div class="benefit"><b>▣</b>پرداخت امن</div><div class="benefit"><b>🚚</b>ارسال سریع</div><div class="benefit"><b>♧</b>پشتیبانی حرفه‌ای</div></div></div>
+<section class="wrap" id="categories"><h2 class="section-title">دسته‌بندی محصولات<small>دسته مورد نظرت را انتخاب کن</small></h2><div class="categories">
+<a class="category" href="#products" onclick="setCat('مام')"><div class="circle">✿</div><strong>مام و ضدتعریق</strong></a>
+<a class="category" href="#products" onclick="setCat('ژل')"><div class="circle">◉</div><strong>ژل و شوینده</strong></a>
+<a class="category" href="#products" onclick="setCat('کانسیلر')"><div class="circle">♧</div><strong>کانسیلر</strong></a>
+<a class="category" href="#products" onclick="setCat('آرایشی')"><div class="circle">✧</div><strong>لوازم آرایشی</strong></a>
+<a class="category" href="#products" onclick="setCat('مراقبت پوست')"><div class="circle">❀</div><strong>مراقبت پوست</strong></a>
+<a class="category" href="#products" onclick="setCat('همه')"><div class="circle">＋</div><strong>همه محصولات</strong></a>
+</div></section>
+<section class="wrap" id="products"><h2 class="section-title">محبوب‌ترین محصولات<small>محصولات منتخب CILOR GROUP</small></h2><div class="toolbar"><span style="font-size:12px;color:#777">برای شروع، محصولات نمونه را با کالاهای واقعی جایگزین کنید.</span><input id="filter" placeholder="جستجو در این بخش..." oninput="document.getElementById('search').value=this.value;render()"></div><div class="products" id="grid"></div></section>
+<section class="wrap"><div class="banner"><div><h2>پیشنهادهای ویژه CILOR</h2><p>محصولات منتخب را کشف کن و از پیشنهادهای فروشگاه باخبر شو.</p><a class="primary" href="#products">همین حالا خرید کن</a></div><div style="font-size:65px">🎀</div></div></section>
+<section class="wrap" id="about"><h2 class="section-title">همراه زیبایی شما<small>درباره CILOR GROUP</small></h2><p style="text-align:center;max-width:700px;margin:auto;color:#777;font-size:12px;line-height:2.2">CILOR GROUP فروشگاه محصولات آرایشی و بهداشتی است. متن معرفی برند، شرایط ارسال و ضمانت اصالت کالا را می‌توانید در این قسمت قرار دهید.</p></section>
+</main>
+<footer id="contact"><div class="foot"><div><div class="brand" style="text-align:right">CILOR<small style="text-align:right">GROUP</small></div><p>فروشگاه اینترنتی محصولات آرایشی و بهداشتی</p></div><div><h3>دسترسی سریع</h3><p>صفحه اصلی<br>محصولات<br>درباره ما</p></div><div><h3>ارتباط با ما</h3><p>شماره تماس: [شماره فروشگاه]<br>اینستاگرام: [آدرس صفحه]<br>نشانی: [نشانی فروشگاه]</p></div></div></footer>
+<div class="cart" id="cart"><div class="panel"><button class="close" onclick="closeCart()">بستن ×</button><h2>سبد خرید</h2><div id="cartitems"></div><h3 id="total"></h3><button class="primary" onclick="checkout()">ثبت درخواست سفارش</button></div></div>
+<script>
+const products=[
+{id:1,name:"مام و ضدتعریق",cat:"مام",desc:"محصول نمونه؛ برند و مشخصات را تکمیل کنید.",price:0,emoji:"✿",tag:"پرفروش"},
+{id:2,name:"ژل و شوینده",cat:"ژل",desc:"محصول نمونه؛ توضیحات محصول را تکمیل کنید.",price:0,emoji:"◉",tag:""},
+{id:3,name:"کانسیلر",cat:"کانسیلر",desc:"محصول نمونه؛ رنگ و برند را تکمیل کنید.",price:0,emoji:"♧",tag:"جدید"},
+{id:4,name:"لوازم آرایشی",cat:"آرایشی",desc:"محصول نمونه؛ مشخصات و برند را تکمیل کنید.",price:0,emoji:"✧",tag:""},
+{id:5,name:"مراقبت پوست",cat:"مراقبت پوست",desc:"محصول نمونه؛ توضیحات محصول را تکمیل کنید.",price:0,emoji:"❀",tag:""},
+{id:6,name:"محصول بهداشتی",cat:"مام",desc:"محصول نمونه؛ مشخصات محصول را تکمیل کنید.",price:0,emoji:"◌",tag:""}
+];let cart=[],cat="همه";const fa=n=>n.toLocaleString("fa-IR");
+function render(){let q=document.getElementById("search").value.trim();let list=products.filter(p=>(cat==="همه"||p.cat===cat)&&(p.name.includes(q)||p.cat.includes(q)));document.getElementById("grid").innerHTML=list.map(p=>`<article class="product">${p.tag?`<span class="tag">${p.tag}</span>`:""}<div class="product-image"><div><span>${p.emoji}</span>تصویر محصول</div></div><div class="product-info"><h3>${p.name}</h3><div class="desc">${p.desc}</div><div class="price">${p.price?fa(p.price)+" تومان":"قیمت به‌زودی"}</div><button class="add" onclick="add(${p.id})">افزودن به سبد خرید</button></div></article>`).join("")||"<p>محصولی یافت نشد.</p>"}
+function setCat(c){cat=c;render()}function add(id){let p=products.find(x=>x.id===id),it=cart.find(x=>x.id===id);if(it)it.qty++;else cart.push({...p,qty:1});document.getElementById("count").textContent=fa(cart.reduce((s,x)=>s+x.qty,0))}
+function openCart(){document.getElementById("cart").classList.add("open");showCart()}function closeCart(){document.getElementById("cart").classList.remove("open")}
+function showCart(){document.getElementById("cartitems").innerHTML=cart.length?cart.map(x=>`<div class="cart-row"><span>${x.name} × ${fa(x.qty)}</span><b>${x.price?fa(x.price*x.qty)+" تومان":"استعلام قیمت"}</b></div>`).join(""):"سبد خرید خالی است.";document.getElementById("total").textContent="جمع کل: "+fa(cart.reduce((s,x)=>s+x.price*x.qty,0))+" تومان"}
+function checkout(){if(!cart.length){alert("سبد خرید خالی است.");return}let msg="سلام، برای سفارش این محصولات راهنمایی می‌خواستم:\n"+cart.map(x=>"- "+x.name+" × "+x.qty).join("\n");if(navigator.clipboard)navigator.clipboard.writeText(msg);alert("متن سفارش آماده شد. برای فعال‌سازی ارسال سفارش به واتساپ، شماره فروشگاه را باید اضافه کنیم.")}
+render();
+</script></body></html>
